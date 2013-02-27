@@ -1,7 +1,17 @@
-blog
-====
+## a blog
 
-This project ios a replacement for my Posterous blog now (Feb '13) that Posterous is schedule to cease operation in APriil.
 
-Export from Posterous is reformated to an internal XML format and the blog is browsed using XQuery. There will be many features no implemented at the beginning of the project.
+This project is a replacement for my Posterous blog now (Feb '13)
+ that Posterous is schedule to cease operation in Apriil.
+
+Export from Posterous is reformated with an XQuery script to an internal XML format using xquery/convert-posterous.xq.
+
+Basic browsing os provided by the xquery/home.xq script, supporting faceted access by tag, month, sequential access and free text search.
+
+Much remains to be.
+
+The development is discussed in the blog itself 
+
+http://kitwallace.co.uk/blog/xquery/home.xq
+
 
