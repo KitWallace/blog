@@ -2,7 +2,7 @@
 
 
 This project is a replacement for my Posterous blog now (Feb '13)
- that Posterous is schedule to cease operation in Apriil.
+ that Posterous is scheduled to cease operation in April.
 
 Export from Posterous is reformated with an XQuery script to an internal XML format using xquery/convert-posterous.xq.
 
