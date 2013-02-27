@@ -8,7 +8,7 @@ Export from Posterous is reformated with an XQuery script to an internal XML for
 
 Basic browsing os provided by the xquery/home.xq script, supporting faceted access by tag, month, sequential access and free text search.
 
-Much remains to be.
+Much remains to be done.
 
 The development is discussed in the blog itself 
 
