@@ -1,0 +1,29 @@
+a.external {
+    background-image: url('Icon_External_Link.png');
+    padding-right: 12px;
+    text-decoration: none;
+    background-position: right;
+    background-repeat:no-repeat;
+}
+span { padding-left: 5px;}
+div.body 
+{
+    font-family: Georgia;
+    letter-spacing: 0;
+    line-height: 1.3em;
+    font-size: 1.2em;
+
+}
+div.comment {padding-left:50px;}
+div.byline {padding-left:0px;}
+pre {
+    padding-top: 10px;
+    margin-right: 20px;
+    padding-left:10px;
+    font-family: Verdana;
+    letter-spacing: 0;
+    font-size: 0.9em;
+    background-color: lightgrey;
+}
+h1 {font-size:2em; }
+h2 {font-size:1.5em;   }

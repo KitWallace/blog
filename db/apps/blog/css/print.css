@@ -1,0 +1,23 @@
+
+span { padding-left: 5px;}
+div.body 
+{
+    font-family: Georgia;
+    letter-spacing: 0;
+    line-height: 1.3em;
+    font-size: 1.2em;
+
+}
+div.comments {padding-left:50px; }
+div.byline {padding-left:200px;}
+pre {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Verdana;
+    letter-spacing: 0;
+    font-size: 0.9em;
+    background-color: lightgrey;
+}
+h1 {font-size:2em; }
+h2 {font-size:1.5em;   }
+div.noprint {display:none;}

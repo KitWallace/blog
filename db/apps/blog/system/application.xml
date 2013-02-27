@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources name="Blog" base="/db/apps/blog/" backupdir="/home/chris/blog/">
+    <resource path="xquery/home.xq">
+        <description>Blog main page</description>
+    </resource>
+    <resource path="xquery/convert-posterous.xq">
+        <description>Converts from a modified Posterous export</description>
+    </resource>
+    <resource path="xquery/admin.xq">
+        <description>admin functions</description>
+    </resource>
+    <resource path="lib/blog.xqm">
+        <description>The main function module</description>
+    </resource>
+    <resource path="lib/convert.xqm">
+        <description>functions for posterous conversion</description>
+    </resource>
+    <resource path="lib/date.xqm">
+        <description>date functions</description>
+    </resource>
+    <resource path="system/config.xml" ignore="ignore">
+        <description>configuration file</description>
+    </resource>
+    <resource path="system/application.xml">
+        <description>this resource file</description>
+    </resource>
+    <resource path="items">
+        <description>all blog entries + index</description>
+    </resource>
+    <resource path="items/index.xml" ignore="ignore">
+        <description>the sorted index for sequential browsing</description>
+    </resource>
+    <resource path="images">
+        <description>images used in blog</description>
+    </resource>
+    <resource path="css">
+        <description>CSS resources including blueprint</description>
+    </resource>
+    <resource path="jscript" ignore="ignore">
+        <description>Jscript </description>
+    </resource>
+    <resource path="jscript/sorttable.js">
+        <description>Script to enable tables to be sortable </description>
+    </resource>
+    <resource path="/system/config/db/apps/blog">
+        <descriptihtton>index configurations</descriptihtton>
+    </resource>
+</resources>
