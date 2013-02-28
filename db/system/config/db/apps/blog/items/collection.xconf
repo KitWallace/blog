@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:b="http:/kitwallace.co.uk/ns/data/blog">
+        <fulltext default="none" attributes="false"/>
+        <lucene boost="1.0">
+            <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
+            <text qname="b:body"/>
+        </lucene>
+        <!-- range indexes -->
+        <create qname="@date" type="xs:dateTime"/>
+        <create qname="@month" type="xs:string"/>
+        <create qname="b:tag" type="xs:string"/>
+    </index>
+</collection>
